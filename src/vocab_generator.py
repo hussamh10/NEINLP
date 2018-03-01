@@ -1,6 +1,6 @@
 file_path = "..\\data\\normalized_whatsapp"
 file = open(file_path, 'r', encoding='utf8')
-data = file.read()
+data = file.read().lower()
 file.close()
 
 data = data.encode('ascii',"ignore")
